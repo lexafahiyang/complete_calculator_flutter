@@ -9,7 +9,7 @@ class CalculatorApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Calculator',
+      title: 'Calculator complete',
       home: CalculatorScreen(),
     );
   }
@@ -99,7 +99,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Calculator'),
+        title: Text('Calculator complete'),
       ),
       body: Container(
         child: Column(
